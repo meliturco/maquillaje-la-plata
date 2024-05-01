@@ -1,0 +1,11 @@
+{
+  "name": "paginamaquillaje",
+  "version": "1.0.0",
+  "description": "> descripción de mi proyecto\r ## Tecnologias aplicadas\r - Creación del diseño visual con Figma.\r - Dominio del modelo de caja en CSS para la estructura y diseño de la página.\r - Uso de herramientas como Flexbox y Grid Layout.\r - Uso de pseudoclases.\r - Implementación de animaciones para crear efectos visuales, uso de técnicas de transición y transformación.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

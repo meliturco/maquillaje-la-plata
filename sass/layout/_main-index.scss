@@ -1,0 +1,25 @@
+.article {
+align-items: center;
+height: 100%;
+width: 100%;
+
+img {
+width: 100%;
+object-fit: cover;
+height: auto;
+}
+}
+
+@keyframes fade-in {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
+
+.fade-in {
+animation: fade-in 1s ease-in-out;
+}

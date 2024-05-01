@@ -1,0 +1,40 @@
+/** 
+1° variables
+2° mapas 
+3° mixinis
+4° funciones
+
+@import "./utilities/maps";
+
+@import "./base/reset";
+
+@import "./layout/header";
+@import "./layout/main";
+
+@import "./components/....";
+
+cuando trabaje con media
+
+**/
+
+@import "./utilities/maps";
+
+@import "./base/reset";
+
+@import "./layout/header";
+
+@import "./layout/main-index";
+
+@import "./layout/main-colorimetría";
+
+@import "./layout/main-servicios";
+
+@import "./layout/main-portafolio";
+
+@import "./layout/main-contacto";
+
+@import "./layout/footer";
+
+@import "./layout/mediaQuerry/media320";
+@import "./layout/mediaQuerry/media768";
+@import "./layout/mediaQuerry/media1024";

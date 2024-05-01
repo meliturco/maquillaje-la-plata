@@ -1,0 +1,88 @@
+@media (min-width: 320px) and (max-width: 430px) {
+ul li a {
+font-size: 0.5rem;
+}
+
+.contenedor {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+
+.text-container {
+h2 {
+margin-top: -3rem;
+margin-left: 2rem;
+}
+
+h3 {
+margin-bottom: 3rem;
+}
+}
+
+.picscolorimetria {
+display: flex;
+flex-direction: column;
+margin-top: 2rem;
+}
+
+.fotosgabinete, .fotoseditorial {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+
+img {
+max-width: 100%;
+height: auto;
+}
+}
+
+.paragraph {
+line-height: normal;
+margin-left: 0.5rem;
+max-width: 35rem;
+}
+
+.circulocromatico-article, .venas {
+display: none;
+}
+
+.protocolos p {
+margin-left: 0rem;
+}
+
+.portafolio img {
+max-width: 70%;
+}
+
+.imagenespropias {
+margin-left: 4rem;
+max-width: 70%;
+}
+
+.carpetapink img {
+max-width: 70%;
+margin-left: 4rem;
+}
+
+.portafolio {
+margin-left: 4rem;
+}
+
+.formulario img {
+max-width: 60%;
+margin-left: 5rem;
+}
+
+.social-buttons {
+display: flex;
+align-items: center !important;
+max-width: 20%;
+}
+
+nav ul li a {
+font-size: 0.7rem;
+}
+
+.text-container h2 {
+margin-left: 5rem;
+}
+}

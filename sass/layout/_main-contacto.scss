@@ -1,0 +1,77 @@
+form {
+background-color: #FFD1CE;
+padding: 2rem;
+max-width: 25rem;
+margin: 0 auto;
+margin-bottom: 3rem;
+font-family: source serif pro;
+font-size: 1rem;
+
+div {
+margin-bottom: 1.5rem;
+}
+
+label {
+display: block;
+margin-bottom: 0.5rem;
+font-weight: bold;
+}
+
+input {
+&[type="text"], &[type="email"], &[type="tel"] {
+width: 100%;
+padding: 0.5rem;
+border: 1px solid #ccc;
+font-size: 1rem;
+font-family: source serif pro;
+border-radius: 0.25rem;
+}
+}
+
+textarea {
+width: 100%;
+padding: 0.5rem;
+border: 1px solid #ccc;
+font-size: 1rem;
+font-family: source serif pro;
+border-radius: 0.25rem;
+height: 7rem;
+}
+
+button {
+padding: 0.5rem 1rem;
+background-color: #FFA69E;
+color: #fff;
+border: none;
+border-radius: 4px;
+
+&[type="reset"] {
+background-color: #ccc;
+margin-right: 1rem;
+}
+
+&[type="submit"] {
+background-color: #FFA69E;
+}
+
+&:hover {
+background-color: #FFD1CE;
+}
+}
+}
+
+.formulario img {
+width: 15rem;
+max-height: 20rem;
+height: auto;
+margin-left: 40rem;
+margin-bottom: 5rem;
+}
+
+.logo img {
+transition: transform 0.3s ease-in-out;
+
+&:hover {
+transform: scale(1.1);
+}
+}

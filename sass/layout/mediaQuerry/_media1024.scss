@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+header {
+flex-wrap: wrap;
+}
+
+.logo {
+max-width: 100%;
+margin-bottom: 1rem;
+}
+
+nav {
+margin-right: 0;
+
+ul li {
+margin-left: 0.5rem;
+
+a {
+font-size: 1rem;
+}
+}
+}
+
+ul li {
+margin-left: 0.5rem;
+
+a {
+font-size: 1rem;
+}
+}
+
+.paragraph {
+max-width: 15rem;
+}
+
+.circulocromatico-article {
+margin-top: -35rem;
+
+img {
+max-width: 50%;
+margin-left: -33rem;
+}
+}
+
+.venas {
+height: 90%;
+
+img {
+max-width: 20rem;
+height: auto;
+}
+}
+
+.picscolorimetria {
+margin-top: 25rem;
+}
+
+.protocolos p {
+margin-left: 2rem;
+}
+
+.imagenespropias {
+margin-left: 25rem;
+}
+
+.carpetapink img {
+margin-left: 24rem;
+}
+
+.formulario img {
+margin-left: 25rem;
+}
+
+.fotosgabinete, .fotoseditorial {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+img {
+max-width: 100%;
+height: auto;
+}
+}
+}
