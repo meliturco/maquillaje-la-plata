@@ -1,82 +1,76 @@
-@media (max-width: 1024px) {
-header {
-flex-wrap: wrap;
-}
+@media (min-width: 1020px) and (max-width: 1024px) {
+    
+    ul {
+        display: flex; 
+        justify-content: center; 
+        margin-right: 7rem;
+    }
+    
+    .picscolorimetria {
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+        
+        }
 
-.logo {
-max-width: 100%;
-margin-bottom: 1rem;
-}
+    .venas {
+        display: none;
+    }  
 
-nav {
-margin-right: 0;
+    .circulocromatico-article {
+        margin-top: -15rem;
 
-ul li {
-margin-left: 0.5rem;
+        img{
+        width: 300px;
+        }
+    }
 
-a {
-font-size: 1rem;
-}
-}
-}
+    .protocolos p {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 
-ul li {
-margin-left: 0.5rem;
 
-a {
-font-size: 1rem;
-}
-}
 
-.paragraph {
-max-width: 15rem;
-}
+    .fotosgabinete {
 
-.circulocromatico-article {
-margin-top: -35rem;
+        img {
+        width: 250px;
+        }
+    }
 
-img {
-max-width: 50%;
-margin-left: -33rem;
-}
-}
+        .fotoseditorial {
+        
+        img {
+        width: 250px;
+        }
+        
+    }
+        .portafolio {
+        
+        img {
+        width: 14.75rem;
+        }
+    }
 
-.venas {
-height: 90%;
+    .portafolio {
+        
+        img {
+        width: 9.375rem;
+        }
+    }
 
-img {
-max-width: 20rem;
-height: auto;
-}
-}
+    .imagenespropias {
+        width: 20rem;
+        margin-left: 23rem;
+    }
+        
+        .carpetapink img {
+        width: 19rem;
+        margin-left: 23rem;
+        }
+    
+    .formulario img {
+        margin-left: 25rem;
+    }
 
-.picscolorimetria {
-margin-top: 25rem;
-}
-
-.protocolos p {
-margin-left: 2rem;
-}
-
-.imagenespropias {
-margin-left: 25rem;
-}
-
-.carpetapink img {
-margin-left: 24rem;
-}
-
-.formulario img {
-margin-left: 25rem;
-}
-
-.fotosgabinete, .fotoseditorial {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-
-img {
-max-width: 100%;
-height: auto;
-}
-}
 }

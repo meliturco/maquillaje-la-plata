@@ -396,181 +396,395 @@ footer .separator {
   background-color: rgb(133, 127, 127);
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 300px) and (max-width: 321px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 1px;
+    margin-right: -2rem;
+  }
+  nav ul li a {
+    display: block;
+    align-items: center;
+    font-size: 16px;
+  }
   ul li a {
-    font-size: 0.5rem;
+    margin-right: 6rem;
+    font-size: 16px;
+  }
+  .picscolorimetria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    max-width: 350px;
+  }
+  .venas {
+    display: none;
+  }
+  .circulocromatico-article {
+    display: none;
+  }
+  div.text-container h2 {
+    font-size: 0.8rem;
+    margin-top: -2rem;
+    margin-left: 6rem;
+  }
+  .paragraph {
+    margin-top: 15rem;
+    margin-right: 4rem;
+    max-width: 50rem;
   }
   .contenedor {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .text-container h2 {
-    margin-top: -3rem;
+  .fotosgabinete {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
     margin-left: 2rem;
   }
-  .text-container h3 {
-    margin-bottom: 3rem;
+  .fotosgabinete img {
+    max-width: 250px;
+  }
+  .protocolos p {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .fotoseditorial {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  .fotoseditorial img {
+    max-width: 250px;
+  }
+  .portafolio {
+    margin-left: 3rem;
+    margin-right: 1rem;
+  }
+  .portafolio img {
+    max-width: 192px;
+  }
+  .imagenespropias {
+    width: 11rem;
+    margin-left: 4.5rem;
+  }
+  .carpetapink img {
+    width: 12rem;
+    margin-left: 4.5rem;
+  }
+  form {
+    max-width: 300px;
+  }
+  .formulario img {
+    margin-left: 5rem;
+    max-width: 150px;
+  }
+  div.social-buttons img {
+    max-width: 50px;
+  }
+  footer img {
+    max-width: 240px;
+  }
+}
+@media (min-width: 355px) and (max-width: 376px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 1px;
+    margin-right: -1rem;
+  }
+  nav ul li a {
+    display: block;
+    align-items: center;
+    font-size: 16px;
+  }
+  ul li a {
+    margin-right: 6rem;
+    font-size: 1rem;
   }
   .picscolorimetria {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 2rem;
+    margin-left: 0.8rem;
+    max-width: 350px;
   }
-  .fotosgabinete, .fotoseditorial {
+  .venas {
+    display: none;
+  }
+  .circulocromatico-article {
+    display: none;
+  }
+  div.text-container h2 {
+    margin-top: -2rem;
+    margin-left: 3rem;
+  }
+  .paragraph {
+    margin-top: 15rem;
+    margin-right: 4rem;
+    max-width: 50rem;
+  }
+  .contenedor {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .fotosgabinete img, .fotoseditorial img {
-    max-width: 100%;
-    height: auto;
+  .fotosgabinete {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
+    margin-left: 2.5rem;
   }
-  .paragraph {
-    line-height: normal;
-    margin-left: 0.5rem;
-    max-width: 35rem;
-  }
-  .circulocromatico-article, .venas {
-    display: none;
+  .fotosgabinete img {
+    max-width: 300px;
   }
   .protocolos p {
-    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
-  .portafolio img {
-    max-width: 70%;
+  .fotoseditorial {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+  }
+  .fotoseditorial img {
+    max-width: 300px;
+  }
+  .portafolio {
+    margin-left: 3rem;
+    margin-right: 1rem;
   }
   .imagenespropias {
+    width: 16rem;
     margin-left: 4rem;
-    max-width: 70%;
   }
   .carpetapink img {
-    max-width: 70%;
+    width: 15rem;
     margin-left: 4rem;
+  }
+  form {
+    max-width: 300px;
+  }
+  .formulario img {
+    margin-left: 8rem;
+    max-width: 150px;
+  }
+  div.social-buttons img {
+    max-width: 60px;
+  }
+}
+@media (min-width: 400px) and (max-width: 426px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 1px;
+    margin-right: 1rem;
+  }
+  nav ul li a {
+    display: block;
+    align-items: center;
+    font-size: 16px;
+  }
+  ul li a {
+    margin-right: 6rem;
+    font-size: 1rem;
+  }
+  .picscolorimetria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  }
+  .venas {
+    display: none;
+  }
+  .circulocromatico-article {
+    display: none;
+  }
+  .text-container {
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+  .paragraph {
+    margin-top: 15rem;
+    margin-right: 4rem;
+    max-width: 50rem;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fotosgabinete {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .fotosgabinete img {
+    max-width: 400px;
+  }
+  .protocolos p {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .fotoseditorial {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .fotoseditorial img {
+    max-width: 400px;
   }
   .portafolio {
     margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .imagenespropias {
+    width: 15rem;
+    margin-left: 6rem;
+  }
+  .carpetapink img {
+    width: 15rem;
+    margin-left: 6rem;
+  }
+  form {
+    max-width: 300px;
   }
   .formulario img {
-    max-width: 60%;
-    margin-left: 5rem;
+    margin-left: 8rem;
+    max-width: 150px;
   }
-  .social-buttons {
+  div.social-buttons img {
+    max-width: 60px;
+  }
+}
+@media (min-width: 700px) and (max-width: 768px) {
+  ul {
     display: flex;
-    align-items: center !important;
-    max-width: 20%;
-  }
-  nav ul li a {
-    font-size: 0.7rem;
-  }
-  .text-container h2 {
-    margin-left: 5rem;
-  }
-}
-@media (max-width: 768px) {
-  .contenedor {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-  .paragraph {
-    max-width: 8rem;
-  }
-  .circulocromatico-article {
-    margin-top: -70rem;
-  }
-  .circulocromatico-article img {
-    max-width: 20rem;
-    margin-left: -28rem;
-  }
-  .venas img {
-    max-width: 25rem;
-    margin-top: 12rem;
-    margin-right: 5rem;
-  }
-  .picscolorimetria {
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 40rem;
-  }
-  .imagenespropias, .carpetapink img {
-    margin-left: 15rem;
-  }
-  .formulario img {
-    margin-left: 16rem;
-  }
-  .fotosgabinete, .fotoseditorial {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .fotosgabinete img, .fotoseditorial img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 1024px) {
-  header {
-    flex-wrap: wrap;
-  }
-  .logo {
-    max-width: 100%;
-    margin-bottom: 1rem;
-  }
-  nav {
-    margin-right: 0;
-  }
-  nav ul li {
-    margin-left: 0.5rem;
-  }
-  nav ul li a {
-    font-size: 1rem;
-  }
-  ul li {
-    margin-left: 0.5rem;
+    justify-content: center;
+    margin-right: 0rem;
   }
   ul li a {
     font-size: 1rem;
+    margin-inline: -3rem;
+    margin-right: 1rem;
   }
-  .paragraph {
-    max-width: 15rem;
-  }
-  .circulocromatico-article {
-    margin-top: -35rem;
-  }
-  .circulocromatico-article img {
-    max-width: 50%;
-    margin-left: -33rem;
-  }
-  .venas {
-    height: 90%;
-  }
-  .venas img {
-    max-width: 20rem;
-    height: auto;
+  nav ul li a {
+    font-size: 16px;
+    margin-inline: -3rem;
+    margin-right: 1rem;
   }
   .picscolorimetria {
-    margin-top: 25rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  .venas {
+    display: none;
+  }
+  .circulocromatico-article {
+    display: none;
+  }
+  .text-container {
+    margin-top: -1rem;
+  }
+  .paragraph {
+    margin-left: 0.5rem;
+    margin-top: 10rem;
+    max-width: 50rem;
   }
   .protocolos p {
-    margin-left: 2rem;
+    margin-left: 0;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fotosgabinete img {
+    width: 210px;
+  }
+  .fotoseditorial img {
+    width: 230px;
+  }
+  .portafolio img {
+    width: 100px;
   }
   .imagenespropias {
-    margin-left: 25rem;
+    width: 15rem;
+    margin-left: 17rem;
   }
   .carpetapink img {
-    margin-left: 24rem;
+    width: 15rem;
+    margin-left: 17rem;
+  }
+  .formulario img {
+    margin-left: 17rem;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1024px) {
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 7rem;
+  }
+  .picscolorimetria {
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+  }
+  .venas {
+    display: none;
+  }
+  .circulocromatico-article {
+    margin-top: -15rem;
+  }
+  .circulocromatico-article img {
+    width: 300px;
+  }
+  .protocolos p {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .fotosgabinete img {
+    width: 250px;
+  }
+  .fotoseditorial img {
+    width: 250px;
+  }
+  .portafolio img {
+    width: 14.75rem;
+  }
+  .portafolio img {
+    width: 9.375rem;
+  }
+  .imagenespropias {
+    width: 20rem;
+    margin-left: 23rem;
+  }
+  .carpetapink img {
+    width: 19rem;
+    margin-left: 23rem;
   }
   .formulario img {
     margin-left: 25rem;
   }
-  .fotosgabinete, .fotoseditorial {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+}
+@media (min-width: 1430px) and (max-width: 1440px) {
+  .fotosgabinete img {
+    width: 400px;
   }
-  .fotosgabinete img, .fotoseditorial img {
-    max-width: 100%;
-    height: auto;
+  .fotoseditorial img {
+    width: 400px;
+  }
+  .portafolio img {
+    width: 14.375rem;
+  }
+  .protocolos p {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .formulario img {
+    margin-left: 38rem;
   }
 }
 

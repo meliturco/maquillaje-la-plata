@@ -1,9 +1,8 @@
-@media (min-width: 300px) and (max-width: 321px) {
-
+@media (min-width: 400px) and (max-width: 426px) {
     nav ul li {
         display: block;
         margin-bottom: 1px; 
-        margin-right: -2rem;
+        margin-right: 1rem;
     }
     nav ul li a {
     display: block;
@@ -13,16 +12,13 @@
 
     ul li a {
     margin-right: 6rem;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     .picscolorimetria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 2rem; 
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-        max-width: 350px;
     }
 
     .venas {
@@ -33,12 +29,9 @@
         display: none;
     }
 
-    div.text-container {
-    h2{
-        font-size: 0.8rem;
-        margin-top: -2rem;
-        margin-left: 6rem;
-    }
+    .text-container {
+        margin-left: 1rem;
+        margin-top: -1rem;
     }
     
     .paragraph {
@@ -57,9 +50,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-right: 1rem ;
-        margin-left: 2rem;
+        margin-left: 1rem;
         img{
-        max-width: 250px;
+        max-width: 400px;
         }
     }
 
@@ -74,27 +67,24 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-right: 1rem ;
-        margin-left: 2rem;
+        margin-left: 1rem;
         img{
-        max-width: 250px;
+        max-width: 400px;
     }
         }
     .portafolio {
-        img{
-        max-width: 192px;
-        }
-        margin-left: 3rem;
-        margin-right: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
         }
         
     .imagenespropias {
-        width: 11rem;
-        margin-left: 4.5rem;
+        width: 15rem;
+        margin-left: 6rem;
     }
         
     .carpetapink img {
-        width: 12rem;
-        margin-left: 4.5rem;
+        width: 15rem;
+        margin-left: 6rem;
     }
 
     form {
@@ -102,20 +92,17 @@
 
     }
     .formulario img {
-        margin-left: 5rem;
+        margin-left: 8rem;
         max-width: 150px;
     }
 
     div.social-buttons {
         img{
-        max-width: 50px; 
+        max-width: 60px; 
         }
     }
 
-    footer img {
-        max-width: 240px;
-    }
-
-
-
 }
+
+
+    

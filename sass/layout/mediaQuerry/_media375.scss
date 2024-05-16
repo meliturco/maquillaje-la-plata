@@ -1,9 +1,9 @@
-@media (min-width: 300px) and (max-width: 321px) {
+@media (min-width: 355px) and (max-width: 376px) {
 
     nav ul li {
         display: block;
         margin-bottom: 1px; 
-        margin-right: -2rem;
+        margin-right: -1rem;
     }
     nav ul li a {
     display: block;
@@ -13,15 +13,14 @@
 
     ul li a {
     margin-right: 6rem;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     .picscolorimetria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 2rem; 
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
+        margin-left: 0.8rem;
         max-width: 350px;
     }
 
@@ -34,11 +33,10 @@
     }
 
     div.text-container {
-    h2{
-        font-size: 0.8rem;
+       h2{
         margin-top: -2rem;
-        margin-left: 6rem;
-    }
+        margin-left: 3rem;
+       }
     }
     
     .paragraph {
@@ -57,9 +55,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-right: 1rem ;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         img{
-        max-width: 250px;
+        max-width: 300px;
         }
     }
 
@@ -74,27 +72,24 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-right: 1rem ;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         img{
-        max-width: 250px;
+        max-width: 300px;
     }
         }
     .portafolio {
-        img{
-        max-width: 192px;
-        }
         margin-left: 3rem;
         margin-right: 1rem;
         }
         
     .imagenespropias {
-        width: 11rem;
-        margin-left: 4.5rem;
+        width: 16rem;
+        margin-left: 4rem;
     }
         
     .carpetapink img {
-        width: 12rem;
-        margin-left: 4.5rem;
+        width: 15rem;
+        margin-left: 4rem;
     }
 
     form {
@@ -102,18 +97,14 @@
 
     }
     .formulario img {
-        margin-left: 5rem;
+        margin-left: 8rem;
         max-width: 150px;
     }
 
     div.social-buttons {
         img{
-        max-width: 50px; 
+        max-width: 60px; 
         }
-    }
-
-    footer img {
-        max-width: 240px;
     }
 
 
