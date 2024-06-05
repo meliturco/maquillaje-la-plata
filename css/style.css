@@ -576,7 +576,7 @@ footer .separator {
     max-width: 60px;
   }
 }
-@media (min-width: 376px) and (max-width: 600px) {
+@media (min-width: 377px) and (max-width: 600px) {
   nav ul li {
     display: block;
     margin-bottom: 1px;
@@ -660,7 +660,7 @@ footer .separator {
     max-width: 60px;
   }
 }
-@media (min-width: 601px) and (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 778px) {
   ul {
     display: flex;
     justify-content: center;
@@ -722,7 +722,7 @@ footer .separator {
     margin-left: 17rem;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 779px) and (max-width: 1025px) {
   ul {
     display: flex;
     justify-content: center;
@@ -769,7 +769,7 @@ footer .separator {
     margin-left: 25rem;
   }
 }
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1026px) and (max-width: 1440px) {
   .fotosgabinete img {
     width: 400px;
   }
